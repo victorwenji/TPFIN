@@ -1,25 +1,19 @@
 import requests
 import json
 
-def recuperer_donnees_et_enregistrer(api_url, nom_fichier):
-    # Faire la requête à l'API
-    reponse = requests.get(api_url)
+reponse = requests.get('https://api.openweathermap.org/data/2.5/forecast?q=limoges,FR1&appid=eea045ed57d81cb0b2ad92319810b8c6')
 
-    # Vérifier si la requête a réussi (code 200)
-    if reponse.status_code == 200:
-        # Charger les données JSON depuis la réponse
-        donnees = reponse.json()
+if reponse.status_code == 200:
+    data = reponse.json()
 
-        # Enregistrer les données dans un fichier
-        with open(nom_fichier, 'w') as fichier:
-            json.dump(donnees, fichier)
+    json_file_path = './storage/Data15jours4.json'
 
-        print(f'Données enregistrées avec succès dans {nom_fichier}')
-    else:
-        print(f'Erreur lors de la récupération des données. Code de statut : {reponse.status_code}')
+    # écrire dans le fichier JSON
+    with open(json_file_path, 'w', encoding='utf-8') as json_file:
+        json.dump(data, json_file, indent=2)
 
-# Exemple d'utilisation
-api_url = 'https://exemple.com/api/donnees'
-nom_fichier = 'donnees_api.json'
-
-recuperer_donnees_et_enregistrer(api_url, nom_fichier)
+    print(f"les données ont été sauvegardées dans {json_file_path}")
+else:
+    print(f"Échec de la requête avec le code : {reponse.status_code}")
+        
+    
