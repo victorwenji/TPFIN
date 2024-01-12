@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": 1.3333,
+    "lat": 45.75
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "01d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 277.46,
+    "feels_like": 272.89,
+    "temp_min": 275.19,
+    "temp_max": 277.46,
+    "pressure": 1027,
+    "humidity": 56
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 6.69,
+    "deg": 60
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1705058186,
+  "sys": {
+    "type": 1,
+    "id": 6459,
+    "country": "FR",
+    "sunrise": 1705044812,
+    "sunset": 1705077087
+  },
+  "timezone": 3600,
+  "id": 2998285,
+  "name": "Arrondissement de Limoges",
+  "cod": 200
+}
