@@ -29,6 +29,19 @@ object MnMcount {
     // display DataFrame
     mnmDF.show(5, false)
 
+
+    val datajours4Df = {
+     spark.read
+      option("multiLine", "true")
+      .option("mode", "DROPMALFORMED")
+      .option("header", "true")
+      .option("inferSchema" , "true")
+      .json(mnmFile)
+    }
+
+
+    //
+
     // aggregate count of all colors and groupBy state and color
     // orderBy descending order
     val countMnMDF = mnmDF.select("State", "Color", "Count")
