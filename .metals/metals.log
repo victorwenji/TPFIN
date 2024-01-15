@@ -435,3 +435,285 @@ WARNING: Unmatched cancel notification for request id 87
 2024.01.12 12:39:25 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.64s
 2024.01.12 14:22:26 WARN  no build target for: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\build.sbt
 2024.01.12 14:22:26 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.12 16:32:42 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:32:44 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 2.71s
+2024.01.12 16:32:44 INFO  time: Imported build in 3.05s
+2024.01.12 16:32:44 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:32:46 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 1.3s
+2024.01.12 16:32:48 INFO  time: indexed workspace in 4.08s
+2024.01.12 16:32:54 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:32:54 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.86s
+2024.01.12 16:32:57 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:32:58 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 1.05s
+2024.01.12 16:36:54 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:36:54 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.72s
+2024.01.12 16:46:40 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:46:40 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.69s
+2024.01.12 16:46:57 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:46:57 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.62s
+2024.01.12 16:46:57 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:46:58 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.76s
+2024.01.12 16:46:59 INFO  time: indexed workspace in 2.87s
+2024.01.12 16:47:00 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:47:03 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 2.38s
+2024.01.12 16:47:06 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:47:06 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.53s
+2024.01.12 16:47:09 INFO  Shutting down server
+2024.01.12 16:47:09 INFO  shutting down Metals
+2024.01.12 16:47:09 INFO  Shut down connection with build server.
+2024.01.12 16:47:09 INFO  Exiting server
+2024.01.12 16:48:30 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\ervan\Documents\GitHub\PR7BIGDATA' for client Visual Studio Code 1.85.1.
+2024.01.12 16:48:33 WARN  No build session currently active to reload.
+2024.01.12 16:48:33 INFO  Attempting to connect to the build server...
+2024.01.12 16:48:33 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
+2024.01.12 16:48:33 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\ervan\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.12 16:48:40 INFO  no build target found for C:\Users\ervan\Documents\GitHub\PR7BIGDATA\getData\comSpark.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.12 16:48:44 INFO  time: Connected to build server in 11s
+2024.01.12 16:48:44 INFO  Connected to Build server: scala-cli v1.0.6
+2024.01.12 16:48:44 INFO  time: Imported build in 0.14s
+2024.01.12 16:48:45 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:48:45 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.87s
+2024.01.12 16:48:46 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:48:46 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.79s
+2024.01.12 16:48:48 INFO  time: indexed workspace in 3.75s
+2024.01.12 16:48:49 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:48:52 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 2.65s
+2024.01.12 16:48:52 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:48:53 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.65s
+janv. 12, 2024 4:49:01 SOIR org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2024.01.12 16:49:03 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:49:03 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.51s
+2024.01.12 16:49:06 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.12 16:49:06 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.5s
+2024.01.14 20:30:55 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\ervan\Documents\GitHub\PR7BIGDATA' for client Visual Studio Code 1.85.1.
+2024.01.14 20:31:01 WARN  No build session currently active to reload.
+2024.01.14 20:31:01 INFO  Attempting to connect to the build server...
+2024.01.14 20:31:01 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
+2024.01.14 20:31:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\ervan\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.14 20:31:07 INFO  BSP server: Starting compilation server
+2024.01.14 20:31:09 INFO  no build target found for C:\Users\ervan\Documents\GitHub\PR7BIGDATA\getData\comSpark.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.14 20:31:26 INFO  time: Connected to build server in 24s
+2024.01.14 20:31:26 INFO  Connected to Build server: scala-cli v1.0.6
+2024.01.14 20:31:26 INFO  time: Imported build in 0.24s
+2024.01.14 20:31:27 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.14 20:31:29 INFO  time: indexed workspace in 3.04s
+2024.01.14 20:31:36 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 8.62s
+2024.01.14 20:31:36 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.14 20:31:38 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 1.78s
+2024.01.14 20:31:38 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.14 20:31:40 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 1.38s
+2024.01.14 20:31:40 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.14 20:31:42 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 1.15s
+janv. 14, 2024 8:34:38 SOIR org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.01.14 20:35:44 INFO  Shutting down server
+2024.01.14 20:35:44 INFO  shutting down Metals
+2024.01.14 20:35:45 INFO  BSP server: Jan 14, 2024 8:35:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.01.14 20:35:45 INFO  BSP server: WARNING: Notification threw an exception: {
+2024.01.14 20:35:45 INFO  BSP server:   "jsonrpc": "2.0",
+2024.01.14 20:35:45 INFO  BSP server:   "method": "build/exit",
+2024.01.14 20:35:45 INFO  Shut down connection with build server.
+2024.01.14 20:35:45 INFO  BSP server:   "params": null
+2024.01.14 20:35:45 INFO  BSP server: }
+2024.01.14 20:35:45 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2024.01.14 20:35:44 INFO  Exiting server
+2024.01.14 20:43:14 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\ervan\Documents\GitHub\PR7BIGDATA' for client Visual Studio Code 1.85.1.
+2024.01.14 20:43:15 WARN  No build session currently active to reload.
+2024.01.14 20:43:15 INFO  Attempting to connect to the build server...
+2024.01.14 20:43:15 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
+2024.01.14 20:43:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\ervan\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.14 20:43:26 INFO  time: Connected to build server in 10s
+2024.01.14 20:43:26 INFO  Connected to Build server: scala-cli v1.0.6
+2024.01.14 20:43:26 INFO  time: Imported build in 0.15s
+2024.01.14 20:43:27 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.14 20:43:28 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 1.46s
+2024.01.14 20:43:28 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.14 20:43:29 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 1.05s
+2024.01.14 20:43:32 INFO  time: indexed workspace in 6.39s
+janv. 15, 2024 2:21:41 SOIR org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+janv. 15, 2024 2:21:41 SOIR org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.01.15 14:21:43 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 14:21:45 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 2.63s
+janv. 15, 2024 2:21:50 SOIR org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+2024.01.15 15:14:40 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:14:41 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 1.17s
+2024.01.15 15:15:15 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:15:15 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.85s
+2024.01.15 15:15:27 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:15:28 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 1.2s
+2024.01.15 15:15:29 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:15:29 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.74s
+2024.01.15 15:15:32 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:15:32 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.75s
+2024.01.15 15:30:40 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:30:40 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.75s
+2024.01.15 15:30:46 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:30:46 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.64s
+2024.01.15 15:30:49 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:30:49 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.87s
+2024.01.15 15:30:51 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:30:51 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.83s
+2024.01.15 15:30:53 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:30:53 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.59s
+2024.01.15 15:30:55 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:30:55 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.66s
+2024.01.15 15:30:57 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:30:57 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.61s
+2024.01.15 15:30:58 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:30:58 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.64s
+2024.01.15 15:31:00 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:31:00 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.71s
+2024.01.15 15:31:04 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:31:04 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.56s
+2024.01.15 15:31:07 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:31:07 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.61s
+2024.01.15 15:31:12 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:31:12 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.56s
+2024.01.15 15:31:14 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:31:14 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.59s
+2024.01.15 15:31:16 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:31:16 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.57s
+2024.01.15 15:31:22 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:31:22 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.57s
+2024.01.15 15:38:51 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:38:51 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.8s
+2024.01.15 15:38:53 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:38:53 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.57s
+2024.01.15 15:38:54 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:38:54 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.56s
+2024.01.15 15:39:31 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:39:31 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.75s
+2024.01.15 15:39:38 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:39:38 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.61s
+2024.01.15 15:39:47 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:39:47 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.65s
+2024.01.15 15:40:05 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:40:05 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.69s
+janv. 15, 2024 3:40:06 SOIR org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 598
+2024.01.15 15:40:11 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:40:11 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.61s
+2024.01.15 15:40:15 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:40:15 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.76s
+janv. 15, 2024 3:40:22 SOIR org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 650
+2024.01.15 15:40:22 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:40:22 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.58s
+2024.01.15 15:40:25 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:40:25 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.54s
+2024.01.15 15:40:34 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:40:34 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.63s
+2024.01.15 15:40:37 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:40:37 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.51s
+2024.01.15 15:40:39 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:40:39 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.5s
+2024.01.15 15:41:01 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:41:01 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.67s
+2024.01.15 15:41:03 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:41:03 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.65s
+2024.01.15 15:41:13 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:41:13 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.58s
+2024.01.15 15:41:15 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:41:15 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.51s
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.pom
+Downloading https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.7.15/scalafmt-sysops_2.13-3.7.15.jar
+Downloading https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.13/3.7.15/scalafmt-config_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/common_2.13/4.8.12/common_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.8.12/parsers_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.7.15/scalafmt-core_2.13-3.7.15.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.8.12/scalameta_2.13-4.8.12.jar
+Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_2.13-4.8.12.jar
+2024.01.15 15:41:36 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:41:36 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.51s
+2024.01.15 15:41:38 ERROR scalafmt: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\getData\comSpark.scala:21: error: [dialect scala3] ; expected but string constant found
+   Selection du champs "list" et ses sous champs
+                       ^
+2024.01.15 15:41:42 ERROR scalafmt: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\getData\comSpark.scala:21: error: [dialect scala3] ; expected but string constant found
+   Selection du champs "list" et ses sous champs
+                       ^
+2024.01.15 15:41:43 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:41:43 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.65s
+2024.01.15 15:49:41 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:49:41 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.92s
+2024.01.15 15:49:55 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:49:55 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.53s
+2024.01.15 15:49:56 ERROR scalafmt: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\getData\comSpark.scala:21: error: [dialect scala3] ; expected but string constant found
+   Selection du champs "list" et ses sous champs
+                       ^
+2024.01.15 15:49:56 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:49:56 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.8s
+2024.01.15 15:50:13 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:50:13 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.63s
+2024.01.15 15:50:15 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:50:15 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.49s
+2024.01.15 15:50:16 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:50:16 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.81s
+2024.01.15 15:50:19 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:50:19 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.57s
+2024.01.15 15:50:21 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:50:21 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.52s
+2024.01.15 15:50:28 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:50:28 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.67s
+2024.01.15 15:50:31 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:50:31 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.48s
+2024.01.15 15:50:32 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:50:32 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.48s
+2024.01.15 15:50:35 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:50:35 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.74s
+2024.01.15 15:50:37 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:50:37 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.62s
+2024.01.15 15:50:39 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:50:39 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.51s
+2024.01.15 15:50:40 ERROR scalafmt: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\getData\comSpark.scala:21: error: [dialect scala3] ; expected but string constant found
+   Selection du champs "list" et ses sous champs
+                       ^
+2024.01.15 15:50:40 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:50:40 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.64s
+2024.01.15 15:55:07 ERROR scalafmt: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\getData\comSpark.scala:21: error: [dialect scala3] ; expected but string constant found
+   Selection du champs "list" et ses sous champs
+                       ^
+2024.01.15 15:55:08 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:55:08 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.6s
+2024.01.15 15:55:09 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:55:09 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.57s
+2024.01.15 15:56:21 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:56:21 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.63s
+2024.01.15 15:56:42 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:56:42 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.57s
+2024.01.15 15:56:47 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:56:47 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.47s
+2024.01.15 15:56:52 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:56:52 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.54s
+2024.01.15 15:56:55 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:56:55 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.59s
+2024.01.15 15:57:01 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:57:01 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.62s
+2024.01.15 15:57:07 ERROR scalafmt: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\getData\comSpark.scala:21: error: [dialect scala3] ; expected but string constant found
+   Selection du champs "list" et ses sous champs
+                       ^
+2024.01.15 15:57:08 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.15 15:57:08 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.58s
