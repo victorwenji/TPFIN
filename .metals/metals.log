@@ -717,3 +717,391 @@ Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_
                        ^
 2024.01.15 15:57:08 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
 2024.01.15 15:57:08 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.58s
+2024.01.17 15:01:37 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA' for client Visual Studio Code 1.85.1.
+2024.01.17 15:01:42 INFO  Attempting to connect to the build server...
+2024.01.17 15:01:42 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
+2024.01.17 15:01:42 ERROR Running process 'C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json C:\Users\ervan\Documents\GitHub\PR7BIGDATA' failed
+java.io.IOException: Cannot run program "C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA"): CreateProcess error=2, Le fichier spécifié est introuvable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:137)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:135)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:178)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$autoConnectToBuildServer$5(MetalsLspService.scala:2255)
+	at scala.meta.internal.metals.TimerProvider.withTimer(TimerProvider.scala:38)
+	at scala.meta.internal.metals.TimerProvider.timed(TimerProvider.scala:14)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$autoConnectToBuildServer$4(MetalsLspService.scala:2255)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: CreateProcess error=2, Le fichier spécifié est introuvable
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:137)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:135)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:178)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$autoConnectToBuildServer$5(MetalsLspService.scala:2255)
+	at scala.meta.internal.metals.TimerProvider.withTimer(TimerProvider.scala:38)
+	at scala.meta.internal.metals.TimerProvider.timed(TimerProvider.scala:14)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$autoConnectToBuildServer$4(MetalsLspService.scala:2255)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 15:01:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\GENERAL-STORES\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 15:01:42 WARN  No build session currently active to reload.
+2024.01.17 15:01:46 INFO  no build target found for C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.17 15:02:40 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 15:02:42 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 15:02:42 ERROR Timeout waiting for 'build/initialize' response
+2024.01.17 15:02:42 WARN  Retrying connection to the build server scala-cli
+2024.01.17 15:02:42 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
+2024.01.17 15:02:42 ERROR Running process 'C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json C:\Users\ervan\Documents\GitHub\PR7BIGDATA' failed
+java.io.IOException: Cannot run program "C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA"): CreateProcess error=2, Le fichier spécifié est introuvable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: CreateProcess error=2, Le fichier spécifié est introuvable
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 15:02:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\GENERAL-STORES\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 15:02:45 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 15:02:50 ERROR Failed to tokenize input for semantic tokens for C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+scala.meta.tokenizers.TokenizeException: <input>:47: error: unclosed comment
+    /*val countMnMDF = mnmDF.select("State", "Color", "Count")
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 15:02:51 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 15:02:51 ERROR Failed to tokenize input for semantic tokens for C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+scala.meta.tokenizers.TokenizeException: <input>:47: error: unclosed comment
+    /*val countMnMDF = mnmDF.select("State", "Color", "Count")
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 15:02:57 ERROR Failed to tokenize input for semantic tokens for C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+scala.meta.tokenizers.TokenizeException: <input>:47: error: unclosed comment
+    /*val countMnMDF = mnmDF.select("State", "Color", "Count")
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 15:02:58 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 15:02:58 ERROR Failed to tokenize input for semantic tokens for C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+scala.meta.tokenizers.TokenizeException: <input>:47: error: unclosed comment
+    /*val countMnMDF = mnmDF.select("State", "Color", "Count")
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 15:02:59 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 15:03:06 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 15:03:42 ERROR Timeout waiting for 'build/initialize' response
+2024.01.17 15:03:42 WARN  Retrying connection to the build server scala-cli
+2024.01.17 15:03:42 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
+2024.01.17 15:03:42 ERROR Running process 'C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json C:\Users\ervan\Documents\GitHub\PR7BIGDATA' failed
+java.io.IOException: Cannot run program "C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA"): CreateProcess error=2, Le fichier spécifié est introuvable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: CreateProcess error=2, Le fichier spécifié est introuvable
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 15:03:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\GENERAL-STORES\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 15:03:47 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 15:04:22 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+janv. 17, 2024 3:04:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 135
+2024.01.17 15:04:34 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 15:04:42 ERROR Timeout waiting for 'build/initialize' response
+2024.01.17 15:04:42 WARN  Retrying connection to the build server scala-cli
+2024.01.17 15:04:42 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
+2024.01.17 15:04:42 ERROR Running process 'C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json C:\Users\ervan\Documents\GitHub\PR7BIGDATA' failed
+java.io.IOException: Cannot run program "C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA"): CreateProcess error=2, Le fichier spécifié est introuvable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: CreateProcess error=2, Le fichier spécifié est introuvable
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 15:04:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\GENERAL-STORES\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 15:04:48 WARN  Could not find semantic tokens for: file:///C:/Users/GENERAL-STORES/OneDrive/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.17 15:05:42 ERROR Timeout waiting for 'build/initialize' response
+2024.01.17 15:05:42 WARN  Retrying connection to the build server scala-cli
+2024.01.17 15:05:42 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
+2024.01.17 15:05:42 ERROR Running process 'C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json C:\Users\ervan\Documents\GitHub\PR7BIGDATA' failed
+java.io.IOException: Cannot run program "C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA"): CreateProcess error=2, Le fichier spécifié est introuvable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: CreateProcess error=2, Le fichier spécifié est introuvable
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 15:05:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\GENERAL-STORES\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 15:06:42 ERROR Timeout waiting for 'build/initialize' response
+2024.01.17 15:06:42 WARN  Retrying connection to the build server scala-cli
+2024.01.17 15:06:42 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
+2024.01.17 15:06:42 ERROR Running process 'C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json C:\Users\ervan\Documents\GitHub\PR7BIGDATA' failed
+java.io.IOException: Cannot run program "C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA"): CreateProcess error=2, Le fichier spécifié est introuvable
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: CreateProcess error=2, Le fichier spécifié est introuvable
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 15:06:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\GENERAL-STORES\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.17 15:07:42 ERROR Timeout waiting for 'build/initialize' response
+2024.01.17 15:07:42 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:640)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:533)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 15:07:42 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 15:07:42 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\build.sbt
+2024.01.17 15:07:42 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\getData\comSpark.scala
+2024.01.17 15:14:47 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 15:14:53 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 15:50:44 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+2024.01.17 16:56:04 INFO  Shutting down server
+2024.01.17 16:56:04 INFO  shutting down Metals
+2024.01.17 16:56:04 INFO  Exiting server
