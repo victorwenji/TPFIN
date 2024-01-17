@@ -30,39 +30,59 @@ object MnMcount {
     mnmDF.show(5, false)
 
 
-    val datajours4Df = {
-     spark.read
-      option("multiLine", "true")
+  
+    // Read the JSON file into a DataFrame
+    val datajour = spark.read
+      .option("multiLine", "true")
       .option("mode", "DROPMALFORMED")
       .option("header", "true")
-      .option("inferSchema" , "true")
+      .option("inferSchema", "true")
       .json(mnmFile)
-    }
 
+    // Display the schema of the DataFrame
+    datajour.printSchema()
 
-    //
+    // tout les dates
+    val dateDF = datajour
+      .select(explode(col("list")).as("list_element"))
+      .select("list_element.dt_txt")
+    dateDF.show(40)
 
-    // aggregate count of all colors and groupBy state and color
-    // orderBy descending order
-    val countMnMDF = mnmDF.select("State", "Color", "Count")
-        .groupBy("State", "Color")
-        .sum("Count")
-        .orderBy(desc("sum(Count)"))
+    // temperature minimum temperature
+    val tempDF = datajour
+      .select(explode(col("list")).as("list_element"))
+      .select("list_element.main.temp_min")
 
-    // show all the resulting aggregation for all the dates and colors
-    countMnMDF.show(60)
-    println(s"Total Rows = ${countMnMDF.count()}")
-    println()
+    // Convertir temperature  Kelvin enCelsius
+    val temperature = datajour
+      .select(explode(col("list")).as("list_element"))
+      .select(
+        expr("CAST(list_element.main.temp_min AS DOUBLE) - 273.15")
+          .as("celsius")
+      )
+    temperature.show(40)
 
-    // find the aggregate count for California by filtering
-    val caCountMnNDF = mnmDF.select("*")
-      .where(col("State") === "CA")
-      .groupBy("State", "Color")
-      .sum("Count")
-      .orderBy(desc("sum(Count)"))
+    // Add an index column for the join
+    val dateDFIndex = dateDF.withColumn("index", monotonically_increasing_id())
+    val temperatureIndex =
+      temperature.withColumn("index", monotonically_increasing_id())
 
-    // show the resulting aggregation for California
-    caCountMnNDF.show(10)
+    // Jointure des deux table
+    val temp_dateJoin =
+      dateDFIndex.join(temperatureIndex, Seq("index"), "inner").drop("index")
+
+    // le jour le plus froid
+    
+      temp_dateJoin.orderBy(asc("celsius"))
+      .select("dt_txt", "celsius")
+      .write
+      .mode("overwrite")
+      .json(s"C:/Users/pasca/Documents/GitHub/PR7BIGDATA/processe/storage/")
+
+    
+
+     
+
   }
 }
 // scalastyle:on println
