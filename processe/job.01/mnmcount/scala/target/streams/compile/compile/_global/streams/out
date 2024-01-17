@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\pasca\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala:35:7: not found: value option[0m
+[0m[[0m[31merror[0m] [0m[0m      option("multiLine", "true")[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

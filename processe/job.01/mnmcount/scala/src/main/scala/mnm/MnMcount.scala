@@ -32,7 +32,7 @@ object MnMcount {
 
     val datajours4Df = {
      spark.read
-      option("multiLine", "true")
+      .option("multiLine", "true")
       .option("mode", "DROPMALFORMED")
       .option("header", "true")
       .option("inferSchema" , "true")
@@ -40,29 +40,7 @@ object MnMcount {
     }
 
 
-    //
-
-    // aggregate count of all colors and groupBy state and color
-    // orderBy descending order
-    val countMnMDF = mnmDF.select("State", "Color", "Count")
-        .groupBy("State", "Color")
-        .sum("Count")
-        .orderBy(desc("sum(Count)"))
-
-    // show all the resulting aggregation for all the dates and colors
-    countMnMDF.show(60)
-    println(s"Total Rows = ${countMnMDF.count()}")
-    println()
-
-    // find the aggregate count for California by filtering
-    val caCountMnNDF = mnmDF.select("*")
-      .where(col("State") === "CA")
-      .groupBy("State", "Color")
-      .sum("Count")
-      .orderBy(desc("sum(Count)"))
-
-    // show the resulting aggregation for California
-    caCountMnNDF.show(10)
+   
   }
 }
 // scalastyle:on println
