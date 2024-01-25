@@ -1,3 +1,0 @@
-- on utilise sbt qui va generer un fat .jar
-- copier ce fat.jar dans la bequet cloud storage 
-- executer et lance le job spark avec dataProg serverLess

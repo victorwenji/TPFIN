@@ -717,98 +717,96 @@ Downloaded https://repo1.maven.org/maven2/org/scalameta/trees_2.13/4.8.12/trees_
                        ^
 2024.01.15 15:57:08 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
 2024.01.15 15:57:08 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.58s
-2024.01.17 15:01:37 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA' for client Visual Studio Code 1.85.1.
-2024.01.17 15:01:42 INFO  Attempting to connect to the build server...
-2024.01.17 15:01:42 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
-2024.01.17 15:01:42 ERROR Running process 'C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json C:\Users\ervan\Documents\GitHub\PR7BIGDATA' failed
-java.io.IOException: Cannot run program "C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA"): CreateProcess error=2, Le fichier spécifié est introuvable
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
-	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
-	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
-	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
-	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
-	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:137)
-	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:135)
-	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:178)
-	at scala.meta.internal.metals.MetalsLspService.$anonfun$autoConnectToBuildServer$5(MetalsLspService.scala:2255)
-	at scala.meta.internal.metals.TimerProvider.withTimer(TimerProvider.scala:38)
-	at scala.meta.internal.metals.TimerProvider.timed(TimerProvider.scala:14)
-	at scala.meta.internal.metals.MetalsLspService.$anonfun$autoConnectToBuildServer$4(MetalsLspService.scala:2255)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1583)
-Caused by: java.io.IOException: CreateProcess error=2, Le fichier spécifié est introuvable
-	at java.lang.ProcessImpl.create(Native Method)
-	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
-	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
-	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
-	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
-	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
-	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
-	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:137)
-	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:135)
-	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:178)
-	at scala.meta.internal.metals.MetalsLspService.$anonfun$autoConnectToBuildServer$5(MetalsLspService.scala:2255)
-	at scala.meta.internal.metals.TimerProvider.withTimer(TimerProvider.scala:38)
-	at scala.meta.internal.metals.TimerProvider.timed(TimerProvider.scala:14)
-	at scala.meta.internal.metals.MetalsLspService.$anonfun$autoConnectToBuildServer$4(MetalsLspService.scala:2255)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1583)
-
-2024.01.17 15:01:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\GENERAL-STORES\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2024.01.17 15:01:42 WARN  No build session currently active to reload.
-2024.01.17 15:01:46 INFO  no build target found for C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala. Using presentation compiler with project's scala-library version: 3.3.1
-2024.01.17 15:02:40 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 15:02:42 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 15:02:42 ERROR Timeout waiting for 'build/initialize' response
-2024.01.17 15:02:42 WARN  Retrying connection to the build server scala-cli
-2024.01.17 15:02:42 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
-2024.01.17 15:02:42 ERROR Running process 'C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json C:\Users\ervan\Documents\GitHub\PR7BIGDATA' failed
-java.io.IOException: Cannot run program "C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA"): CreateProcess error=2, Le fichier spécifié est introuvable
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
-	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
-	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
-	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
-	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1583)
-Caused by: java.io.IOException: CreateProcess error=2, Le fichier spécifié est introuvable
-	at java.lang.ProcessImpl.create(Native Method)
-	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
-	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
-	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
-	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
-	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
-	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1583)
-
-2024.01.17 15:02:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\GENERAL-STORES\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2024.01.17 15:02:45 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 15:02:50 ERROR Failed to tokenize input for semantic tokens for C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-scala.meta.tokenizers.TokenizeException: <input>:47: error: unclosed comment
-    /*val countMnMDF = mnmDF.select("State", "Color", "Count")
+2024.01.16 10:22:49 INFO  Started: Metals version 1.2.0 in folders 'C:\Users\ervan\Documents\GitHub\PR7BIGDATA' for client Visual Studio Code 1.85.1.
+2024.01.16 10:22:54 WARN  No build session currently active to reload.
+2024.01.16 10:22:54 INFO  Attempting to connect to the build server...
+2024.01.16 10:22:54 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
+2024.01.16 10:22:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\ervan\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.01.16 10:22:57 INFO  BSP server: Starting compilation server
+2024.01.16 10:22:59 INFO  no build target found for C:\Users\ervan\Documents\GitHub\PR7BIGDATA\getData\comSpark.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.16 10:23:07 INFO  time: Connected to build server in 13s
+2024.01.16 10:23:07 INFO  Connected to Build server: scala-cli v1.0.6
+2024.01.16 10:23:08 INFO  time: Imported build in 0.15s
+2024.01.16 10:23:08 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 10:23:10 INFO  time: indexed workspace in 1.88s
+2024.01.16 10:23:14 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 5.22s
+2024.01.16 10:23:14 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 10:23:15 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 1.29s
+2024.01.16 10:23:15 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 10:23:16 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.99s
+2024.01.16 10:23:16 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 10:23:18 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.77s
+2024.01.16 12:08:23 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 12:08:23 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.89s
+2024.01.16 12:11:03 WARN  no build target for: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\build.sbt
+2024.01.16 12:11:03 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.16 12:11:03 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.16 12:13:31 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 12:13:31 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.79s
+2024.01.16 12:15:09 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 12:15:09 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.64s
+2024.01.16 12:15:12 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 12:15:12 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.46s
+2024.01.16 12:15:34 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 12:15:34 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.47s
+2024.01.16 12:15:40 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 12:15:40 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.47s
+2024.01.16 12:28:03 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.16 12:56:44 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.16 20:31:45 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:31:47 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 1.7s
+2024.01.16 20:31:52 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:31:52 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.91s
+2024.01.16 20:40:42 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:40:42 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.88s
+2024.01.16 20:40:50 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:40:50 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.82s
+2024.01.16 20:40:51 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:40:51 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.66s
+2024.01.16 20:40:54 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:40:54 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.8s
+2024.01.16 20:40:56 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:40:56 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.57s
+2024.01.16 20:41:00 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:41:00 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.66s
+2024.01.16 20:41:04 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:41:04 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.53s
+2024.01.16 20:41:06 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:41:06 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.65s
+2024.01.16 20:41:12 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:41:12 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.62s
+2024.01.16 20:41:22 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:41:22 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.52s
+2024.01.16 20:41:27 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:41:27 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.58s
+2024.01.16 20:41:30 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:41:30 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.52s
+2024.01.16 20:41:31 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:41:31 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.54s
+2024.01.16 20:41:34 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:41:34 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.71s
+2024.01.16 20:41:36 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:41:36 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.53s
+2024.01.16 20:41:40 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:41:40 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.63s
+2024.01.16 20:42:29 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:42:29 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.82s
+2024.01.16 20:42:32 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:42:32 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.59s
+2024.01.16 20:42:37 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:42:37 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.51s
+2024.01.16 20:42:39 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:42:39 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.71s
+2024.01.16 20:42:41 ERROR scalafmt: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala:12: error: [dialect scala3] Procedure syntax is not supported. Convert procedure `main` to method by adding `: Unit =`.
+  def main(args: Array[String]) {
+      ^
+2024.01.16 20:42:41 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:42:41 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.63s
+janv. 16, 2024 8:43:57 SOIR org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 656
+2024.01.16 20:44:01 ERROR Failed to tokenize input for semantic tokens for C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+scala.meta.tokenizers.TokenizeException: <input>:70: error: unclosed comment
+    /* val countMnMDF = mnmDF.select("State", "Color", "Count")
     ^
 	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
 	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
@@ -836,10 +834,11 @@ scala.meta.tokenizers.TokenizeException: <input>:47: error: unclosed comment
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.lang.Thread.run(Thread.java:1583)
 
-2024.01.17 15:02:51 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 15:02:51 ERROR Failed to tokenize input for semantic tokens for C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-scala.meta.tokenizers.TokenizeException: <input>:47: error: unclosed comment
-    /*val countMnMDF = mnmDF.select("State", "Color", "Count")
+2024.01.16 20:44:02 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:44:02 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.63s
+2024.01.16 20:44:03 ERROR Failed to tokenize input for semantic tokens for C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+scala.meta.tokenizers.TokenizeException: <input>:70: error: unclosed comment
+    /* val countMnMDF = mnmDF.select("State", "Color", "Count")
     ^
 	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
 	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
@@ -867,9 +866,9 @@ scala.meta.tokenizers.TokenizeException: <input>:47: error: unclosed comment
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.lang.Thread.run(Thread.java:1583)
 
-2024.01.17 15:02:57 ERROR Failed to tokenize input for semantic tokens for C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-scala.meta.tokenizers.TokenizeException: <input>:47: error: unclosed comment
-    /*val countMnMDF = mnmDF.select("State", "Color", "Count")
+2024.01.16 20:44:05 ERROR Failed to tokenize input for semantic tokens for C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+scala.meta.tokenizers.TokenizeException: <input>:70: error: unclosed comment
+    /* val countMnMDF = mnmDF.select("State", "Color", "Count")
     ^
 	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
 	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
@@ -897,10 +896,186 @@ scala.meta.tokenizers.TokenizeException: <input>:47: error: unclosed comment
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.lang.Thread.run(Thread.java:1583)
 
-2024.01.17 15:02:58 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 15:02:58 ERROR Failed to tokenize input for semantic tokens for C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-scala.meta.tokenizers.TokenizeException: <input>:47: error: unclosed comment
-    /*val countMnMDF = mnmDF.select("State", "Color", "Count")
+2024.01.16 20:44:07 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 20:44:07 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.69s
+2024.01.16 21:10:24 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:10:24 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.65s
+2024.01.16 21:10:27 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:10:27 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.7s
+2024.01.16 21:10:28 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:10:28 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.5s
+2024.01.16 21:10:32 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:10:32 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.7s
+2024.01.16 21:10:36 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:10:36 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.52s
+2024.01.16 21:10:41 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:10:41 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.59s
+2024.01.16 21:10:42 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:10:42 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.54s
+2024.01.16 21:10:46 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:10:46 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.59s
+2024.01.16 21:10:49 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:10:49 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.55s
+2024.01.16 21:10:50 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:10:50 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.46s
+2024.01.16 21:10:51 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:10:51 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.53s
+2024.01.16 21:11:01 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:11:01 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.59s
+2024.01.16 21:11:02 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:11:02 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.53s
+2024.01.16 21:11:07 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:11:07 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.57s
+2024.01.16 21:11:10 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:11:10 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.49s
+2024.01.16 21:11:12 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:11:12 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.51s
+2024.01.16 21:11:17 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.16 21:11:17 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.5s
+2024.01.17 00:12:59 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.17 00:19:55 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.17 00:25:33 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.17 00:35:42 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:35:42 ERROR scalafmt: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala:14: error: [dialect scala3] Procedure syntax is not supported. Convert procedure `main` to method by adding `: Unit =`.
+  def main(args: Array[String]) {
+      ^
+2024.01.17 00:35:42 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.8s
+2024.01.17 00:35:44 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:35:44 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.47s
+2024.01.17 00:35:50 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:35:50 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.28s
+2024.01.17 00:37:30 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:37:30 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.51s
+2024.01.17 00:37:32 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:37:32 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.37s
+2024.01.17 00:37:34 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:37:34 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.34s
+2024.01.17 00:37:37 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:37:37 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.26s
+2024.01.17 00:37:39 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:37:39 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.3s
+2024.01.17 00:37:40 ERROR scalafmt: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala:14: error: [dialect scala3] Procedure syntax is not supported. Convert procedure `main` to method by adding `: Unit =`.
+  def main(args: Array[String]) {
+      ^
+2024.01.17 00:37:40 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:37:40 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.28s
+2024.01.17 00:38:01 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:38:01 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.31s
+2024.01.17 00:38:04 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:38:04 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.27s
+2024.01.17 00:38:07 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:38:07 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.29s
+2024.01.17 00:38:08 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:38:08 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.28s
+2024.01.17 00:38:16 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:38:16 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.28s
+2024.01.17 00:38:19 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:38:19 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.32s
+2024.01.17 00:38:22 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:38:22 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.34s
+2024.01.17 00:38:24 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:38:24 ERROR scalafmt: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala:14: error: [dialect scala3] Procedure syntax is not supported. Convert procedure `main` to method by adding `: Unit =`.
+  def main(args: Array[String]) {
+      ^
+2024.01.17 00:38:24 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.31s
+2024.01.17 00:38:24 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:38:25 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.36s
+2024.01.17 00:41:56 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.17 00:43:12 WARN  no build target for: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\build.sbt
+2024.01.17 00:43:16 WARN  no build target for: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\build.sbt
+2024.01.17 00:43:21 ERROR scalafmt: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala:14: error: [dialect scala3] Procedure syntax is not supported. Convert procedure `main` to method by adding `: Unit =`.
+  def main(args: Array[String]) {
+      ^
+2024.01.17 00:43:21 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:43:21 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.52s
+2024.01.17 00:43:38 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:43:38 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.29s
+2024.01.17 00:43:39 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:43:39 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.41s
+2024.01.17 00:43:46 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:43:46 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.29s
+2024.01.17 00:43:50 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:43:50 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.27s
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2024.01.17 00:44:01 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:01 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.23s
+2024.01.17 00:44:04 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:04 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.26s
+2024.01.17 00:44:18 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:18 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.24s
+2024.01.17 00:44:21 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:21 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.24s
+2024.01.17 00:44:25 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:25 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 72ms
+2024.01.17 00:44:27 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:27 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.24s
+2024.01.17 00:44:30 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:30 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.24s
+2024.01.17 00:44:32 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:32 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.26s
+2024.01.17 00:44:34 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:34 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.29s
+2024.01.17 00:44:36 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:36 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.3s
+2024.01.17 00:44:38 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:38 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.31s
+2024.01.17 00:44:40 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:40 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.23s
+2024.01.17 00:44:46 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:46 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.27s
+2024.01.17 00:44:48 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:48 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.28s
+2024.01.17 00:44:50 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:44:50 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.26s
+2024.01.17 00:45:17 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:45:17 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.23s
+2024.01.17 00:45:21 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:45:21 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.26s
+2024.01.17 00:45:23 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:45:23 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.32s
+2024.01.17 00:45:39 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:45:39 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.22s
+2024.01.17 00:45:46 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:45:46 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.22s
+2024.01.17 00:45:47 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:45:47 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.35s
+2024.01.17 00:45:49 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:45:49 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.26s
+2024.01.17 00:46:52 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:46:52 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.66s
+2024.01.17 00:47:24 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:47:24 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.29s
+2024.01.17 00:47:35 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:47:35 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.27s
+2024.01.17 00:47:43 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:47:43 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.3s
+2024.01.17 00:47:50 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:47:50 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.3s
+2024.01.17 00:47:52 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:47:52 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.27s
+janv. 17, 2024 12:47:54 MATIN org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1840
+2024.01.17 00:47:55 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:47:55 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.43s
+2024.01.17 00:48:08 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:48:08 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.29s
+2024.01.17 00:48:09 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:48:09 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.23s
+2024.01.17 00:48:29 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:48:29 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.33s
+2024.01.17 00:48:37 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 00:48:37 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.31s
+2024.01.17 01:02:25 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 01:02:25 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.34s
+2024.01.17 01:02:26 ERROR Failed to tokenize input for semantic tokens for C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+scala.meta.tokenizers.TokenizeException: <input>:50: error: unclosed comment
+    /*val tempDF = datajour
     ^
 	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
 	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
@@ -928,180 +1103,192 @@ scala.meta.tokenizers.TokenizeException: <input>:47: error: unclosed comment
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.lang.Thread.run(Thread.java:1583)
 
-2024.01.17 15:02:59 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 15:03:06 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 15:03:42 ERROR Timeout waiting for 'build/initialize' response
-2024.01.17 15:03:42 WARN  Retrying connection to the build server scala-cli
-2024.01.17 15:03:42 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
-2024.01.17 15:03:42 ERROR Running process 'C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json C:\Users\ervan\Documents\GitHub\PR7BIGDATA' failed
-java.io.IOException: Cannot run program "C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA"): CreateProcess error=2, Le fichier spécifié est introuvable
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
-	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
-	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
-	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
-	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1583)
-Caused by: java.io.IOException: CreateProcess error=2, Le fichier spécifié est introuvable
-	at java.lang.ProcessImpl.create(Native Method)
-	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
-	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
-	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
-	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
-	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
-	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1583)
-
-2024.01.17 15:03:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\GENERAL-STORES\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2024.01.17 15:03:47 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 15:04:22 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-janv. 17, 2024 3:04:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
-WARNING: Unmatched cancel notification for request id 135
-2024.01.17 15:04:34 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 15:04:42 ERROR Timeout waiting for 'build/initialize' response
-2024.01.17 15:04:42 WARN  Retrying connection to the build server scala-cli
-2024.01.17 15:04:42 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
-2024.01.17 15:04:42 ERROR Running process 'C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json C:\Users\ervan\Documents\GitHub\PR7BIGDATA' failed
-java.io.IOException: Cannot run program "C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA"): CreateProcess error=2, Le fichier spécifié est introuvable
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
-	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
-	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
-	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
-	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1583)
-Caused by: java.io.IOException: CreateProcess error=2, Le fichier spécifié est introuvable
-	at java.lang.ProcessImpl.create(Native Method)
-	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
-	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
-	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
-	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
-	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
-	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1583)
-
-2024.01.17 15:04:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\GENERAL-STORES\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2024.01.17 15:04:48 WARN  Could not find semantic tokens for: file:///C:/Users/GENERAL-STORES/OneDrive/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
-2024.01.17 15:05:42 ERROR Timeout waiting for 'build/initialize' response
-2024.01.17 15:05:42 WARN  Retrying connection to the build server scala-cli
-2024.01.17 15:05:42 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
-2024.01.17 15:05:42 ERROR Running process 'C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json C:\Users\ervan\Documents\GitHub\PR7BIGDATA' failed
-java.io.IOException: Cannot run program "C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA"): CreateProcess error=2, Le fichier spécifié est introuvable
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
-	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
-	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
-	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
-	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1583)
-Caused by: java.io.IOException: CreateProcess error=2, Le fichier spécifié est introuvable
-	at java.lang.ProcessImpl.create(Native Method)
-	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
-	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
-	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
-	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
-	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
-	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1583)
-
-2024.01.17 15:05:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\GENERAL-STORES\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2024.01.17 15:06:42 ERROR Timeout waiting for 'build/initialize' response
-2024.01.17 15:06:42 WARN  Retrying connection to the build server scala-cli
-2024.01.17 15:06:42 INFO  Running BSP server List(C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json, C:\Users\ervan\Documents\GitHub\PR7BIGDATA)
-2024.01.17 15:06:42 ERROR Running process 'C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe bsp --json-options C:\Users\ervan\Documents\GitHub\PR7BIGDATA\.scala-build\ide-options-v2.json C:\Users\ervan\Documents\GitHub\PR7BIGDATA' failed
-java.io.IOException: Cannot run program "C:\Users\ervan\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe" (in directory "C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA"): CreateProcess error=2, Le fichier spécifié est introuvable
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
-	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
-	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
-	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
-	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1583)
-Caused by: java.io.IOException: CreateProcess error=2, Le fichier spécifié est introuvable
-	at java.lang.ProcessImpl.create(Native Method)
-	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
-	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
-	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
-	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:45)
-	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:96)
-	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:142)
-	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:511)
-	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:566)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:581)
-	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$16.applyOrElse(BuildServerConnection.scala:578)
-	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.lang.Thread.run(Thread.java:1583)
-
-2024.01.17 15:06:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\.metals\bsp.trace.json or C:\Users\GENERAL-STORES\AppData\Local\scalameta\metals\cache\bsp.trace.json
-2024.01.17 15:07:42 ERROR Timeout waiting for 'build/initialize' response
-2024.01.17 15:07:42 ERROR Failed to connect with build server, no functionality will work.
-java.util.concurrent.TimeoutException
-	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
-	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
-	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:640)
-	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:533)
+2024.01.17 01:02:27 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 01:02:27 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.53s
+2024.01.17 01:02:27 ERROR Failed to tokenize input for semantic tokens for C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+scala.meta.tokenizers.TokenizeException: <input>:50: error: unclosed comment
+    /*val tempDF = datajour
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
 	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.lang.Thread.run(Thread.java:1583)
 
-2024.01.17 15:07:42 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 15:07:42 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\build.sbt
-2024.01.17 15:07:42 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\getData\comSpark.scala
-2024.01.17 15:14:47 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 15:14:53 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 15:50:44 WARN  no build target for: C:\Users\GENERAL-STORES\OneDrive\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
-2024.01.17 16:56:04 INFO  Shutting down server
-2024.01.17 16:56:04 INFO  shutting down Metals
-2024.01.17 16:56:04 INFO  Exiting server
+2024.01.17 01:02:36 ERROR Failed to tokenize input for semantic tokens for C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+scala.meta.tokenizers.TokenizeException: <input>:50: error: unclosed comment
+    /*val tempDF = datajour
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 01:02:37 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 01:02:37 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.31s
+2024.01.17 01:07:36 ERROR Failed to tokenize input for semantic tokens for C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+scala.meta.tokenizers.TokenizeException: <input>:44: error: unclosed comment
+    /*val dateDF = datajour
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 01:07:37 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 01:07:37 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.48s
+2024.01.17 01:07:38 ERROR Failed to tokenize input for semantic tokens for C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\src\main\scala\mnm\MnMcount.scala
+scala.meta.tokenizers.TokenizeException: <input>:44: error: unclosed comment
+    /*val dateDF = datajour
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.01.17 01:07:40 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 01:07:40 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.31s
+2024.01.17 01:07:42 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 01:07:42 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.34s
+2024.01.17 01:08:34 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 01:08:34 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.33s
+2024.01.17 01:08:37 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 01:08:37 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.27s
+2024.01.17 01:08:39 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 01:08:39 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.3s
+2024.01.17 01:08:43 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 01:08:43 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.25s
+janv. 17, 2024 2:11:51 SOIR org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2137
+2024.01.17 14:15:25 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/test/main.scala
+2024.01.17 14:15:26 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:15:26 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.55s
+2024.01.17 14:15:26 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/test/main.scala
+2024.01.17 14:18:04 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/test/main.scala
+2024.01.17 14:18:05 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:18:05 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.6s
+2024.01.17 14:18:05 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:18:06 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.48s
+2024.01.17 14:18:20 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:18:20 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/test/main.scala
+2024.01.17 14:18:20 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.28s
+2024.01.17 14:18:20 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:18:20 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.25s
+2024.01.17 14:18:31 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:18:31 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/test/main.scala
+2024.01.17 14:18:31 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.49s
+2024.01.17 14:18:31 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:18:32 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.48s
+2024.01.17 14:18:32 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:18:32 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.42s
+2024.01.17 14:18:32 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:18:33 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.41s
+2024.01.17 14:18:39 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:18:39 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.54s
+2024.01.17 14:18:39 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:18:40 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.35s
+2024.01.17 14:18:40 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:18:40 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.36s
+2024.01.17 14:19:32 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:19:32 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.34s
+2024.01.17 14:19:32 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:19:32 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.33s
+2024.01.17 14:19:43 INFO  compiling pr7bigdata_bd2c96d2de (2 scala sources)
+2024.01.17 14:19:43 INFO  time: compiled PR7BIGDATA_bd2c96d2de in 0.31s
+2024.01.17 14:21:12 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/test/main.scala
+2024.01.17 14:21:19 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/test/main.scala
+2024.01.17 14:32:42 WARN  no build target for: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\build.sbt
+2024.01.17 14:33:13 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.17 14:33:13 WARN  no build target for: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\build.sbt
+2024.01.17 14:33:13 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.17 14:33:14 WARN  no build target for: C:\Users\ervan\Documents\GitHub\PR7BIGDATA\processe\job.01\mnmcount\scala\build.sbt
+2024.01.17 14:33:13 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+janv. 17, 2024 2:39:15 SOIR org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2243
+janv. 17, 2024 2:39:24 SOIR org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2251
+2024.01.17 14:49:55 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/job.01/mnmcount/scala/build.sbt
+2024.01.17 15:10:27 WARN  Could not find semantic tokens for: file:///C:/Users/ervan/Documents/GitHub/PR7BIGDATA/processe/test/main.scala

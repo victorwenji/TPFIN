@@ -1,0 +1,5 @@
+il faut installer sbt (demande a chat_gpt )
+
+  sbt clean package (a la racine du projet)
+
+  spark-submit --class main.scala.chapter2.MnMcount target/scala-2.12/main-scala-mnm_2.12-1.0.jar  ../../getData/storage/Data15jours4.json
